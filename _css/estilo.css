@@ -23,7 +23,7 @@ p{
     text-indent: 50px;
 }
 a{
-    color: #7e627c;
+    color: #2a0a9e;
     text-decoration: none;
 }
 a:hover{
@@ -33,29 +33,29 @@ a:hover{
 /* Formatação de CABEÇALHO*/
 header#cabecalho{
     border-bottom: #979696 solid;
-    height: 150px;
-    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
+    height: 120px;
 }
 header#cabecalho img#icone{
     display: block;
     position: absolute;
-    margin-left: 990px;
+    margin-right: 990px;
     top: 45px;
 }
 header#cabecalho h1{
-    font-family: 'FonteLogo', sans-serif;
+    font-family: sans-serif;
     font-size: 30pt;
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0,0,0,.6);
     padding: 0pt;
-    margin-bottom: 1px;
+    margin-top: 30px;
+    text-align: center;
 }
 header#cabecalho h2{
     font-family: 'Titillium Web', sans-serif;
     font-size: 15pt;
-    color: #888888;
-    padding: 0pt;
-    margin-top: 1px;
+    color: #6b6969;
+    padding: 3pt;
+    text-align: center;
 }
 
 /* Formatação de IMAGENS com legendas */
@@ -92,14 +92,15 @@ nav#menu ul{
     list-style: none;
     text-transform: uppercase;
     position: relative;
-    margin-top: -115px;
-    margin-left: 200px;
+    margin-top: 3px;
+    margin-right: 1px;
 }
 nav#menu li{
+    font-size: 12pt;
     display: inline-block;
     background-color: #dddddd;
-    padding: 10px;
-    margin: 2px;
+    padding: 9px;
+    margin: 1.5px;
     transition: background-color 1s;
 }
 nav#menu li:hover{
