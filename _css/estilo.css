@@ -35,29 +35,31 @@ header#cabecalho{
 header#cabecalho img#icone{
     display: block;
     position: absolute;
-    margin-right: 990px;
-    top: 45px;
+    margin-right: 1px;
+    top: 1px;
 }
 header#cabecalho h1{
     font-family: sans-serif;
     font-size: 30pt;
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0,0,0,.6);
-    padding: none;
-    margin-top: 3px;
+    padding: 21px;
+    margin-bottom: 1px;
     text-align: center;
 }
 header#cabecalho h2{
     font-family: 'Titillium Web', sans-serif;
     font-size: 15pt;
-    color: #3a3838;
-    padding: 2.1pt;
+    color: #383a38;
+    padding: 15pt;
     text-align: center;
-
+    
 }
 svg#logo{
-    margin: 0px;
-    style: rgb(197, 21, 21);
+    display: block;
+    position: absolute;
+    margin-right: 1px;
+    top: 45px;
 }
 
 /* Formatação do MENU DE NAVEGAÇÃO*/
