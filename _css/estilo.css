@@ -5,40 +5,33 @@
     src: url(../_fonts/bubblegum-sans-regular.otf);
 }
 
-/* Formatação do CORPO*/
+/* Formatação do CORPO DA PÁGINA*/
 body{
     font-family: Arial, sans-serif;
     background-color: #dddddd;
-    color: black rgba(0,0,0,1);
 }
 div#interface{
     width: 1150px;
-    background-color: #ffffff;
-    margin: -20px auto 0px auto;
+    background-color: white;
+    margin: -15px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
-    padding: 10px 15px 10px 10px;
+    padding: 12px 15px 12px 21px;
 }
 p{
-    text-align: justify;
-    text-indent: 50px;
+    text-align: center justify;
+    text-indent: 33px;
 }
-a{
-    color: #2a0a9e;
-    text-decoration: none;
-}
-a:hover{
-    text-decoration: underline;
+h4{
+    text-align: right;
+    margin-top: 90px;
 }
 
 /* Formatação de CABEÇALHO*/
 header#cabecalho{
-    border-bottom: #979696 solid;
+    border-bottom: #d8d2d2 solid;
     height: 120px;
 }
-header#cabecalho entrada{
-    text-align: right;
-}
-
+/*FALTA editar ícone*/
 header#cabecalho img#icone{
     display: block;
     position: absolute;
@@ -50,43 +43,16 @@ header#cabecalho h1{
     font-size: 30pt;
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0,0,0,.6);
-    padding: 0pt;
-    margin-top: 30px;
+    padding: none;
+    margin-top: 24px;
     text-align: center;
 }
 header#cabecalho h2{
     font-family: 'Titillium Web', sans-serif;
     font-size: 15pt;
-    color: #6b6969;
-    padding: 3pt;
+    color: #3a3838;
+    padding: 2.1pt;
     text-align: center;
-}
-
-
-/* Formatação de IMAGENS com legendas */
-figure.foto-legenda{
-    position: relative;
-    border: 8px solid white;
-    box-shadow: 1px 1px 4px black;
-}
-figure.foto-legenda img{
-    width: 100%;
-    height: 100%;
-}
-figure.foto-legenda figcaption{
-    opacity: 0;
-    position: absolute;
-    top: 0px;
-    background: rgba(0, 0, 0, .4);
-    color: white;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    transition: opacity 1s;
-}
-figure.foto-legenda:hover figcaption{
-    opacity: 1;
 }
 
 /* Formatação do MENU DE NAVEGAÇÃO*/
@@ -116,7 +82,8 @@ nav#menu a{
     text-decoration: none;
 }
 nav#menu a:hover{
-    color: #ffffff;
+    color: #c9cc15;
+    background-color: rgb(44, 104, 139);
     text-decoration: underline;
 }
 nav#menu h1{
@@ -126,63 +93,42 @@ nav#menu h1{
 /*Formatação do CORPO DA SEÇÃO*/
 section#corpo{
     display: block;
-    width: 615px;
+    width: 1130px;
     float: left;
-    border-right: 1.5px solid #606060;
     padding-right: 17px;
 }
-article#noticia-principal h2{
-    font-size: 13pt;
-    color: #606060;
-    background-color: #dddddd;
-    padding: 5px 0px 5px 10px;
-    margin: 10px 0px 10px 0px;
-}
-header#cabecalho-artigo h1{
-    font-family: 'FonteLogo', sans-serif;
-    font-size: 20pt;
-    color: #606060;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-.direita{
-    text-align: right;
-}
-header#cabecalho-artigo h2{    
-    font-size: 13pt;
-    color: #cecece;
-    background-color: #ffffff;
-    margin-top: 0px;
-}
-header#cabecalho-artigo h3{
-    font-size: 12pt;
-    color: #606060;
+.entrada{
+    color: rgb(61, 85, 121);
 }
 
+/*Formatação dos botões*/
+div#pesquisas{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+    text-align: center; 
+    margin-top: 69px;
+    margin-bottom: 150px; 
+}
+div#pesquisas a{
+    color: #000000;
+    border-radius: 9px;
+    padding: 36px 36px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;   
+}
+div#pesquisas .botao1{
+    background-color: blue;     
+}
+div#pesquisas .botao2{
+    background-color: rgb(253, 3, 3);
+}
+div#pesquisas .botao3{
+    background-color: green;
+ }
 
-/*Formatação LATERAL*/
-aside#lateral{
-    display: block;
-    width: 480px;
-    float: right;
-    background-color: #dddddd;
-    padding: 10px;
-    margin-top: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
-}
-aside#lateral h1{
-    font-family: 'FonteLogo', sans-serif;
-    font-size: 20pt;
-    color: #606060;
-    margin-top: 0px;
-}
-aside#lateral h2{
-    font-size: 13pt;
-    color: #ffffff;
-    background-color: #606060;
-    padding: 5px 0px 5px 10px;
-    margin: 10px 0px 10px 0px;
-}
+
+
 
 /*Formatação RODAPÉ*/
 footer#rodape{
